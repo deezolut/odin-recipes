@@ -21,3 +21,7 @@ b {
     color: lightgreen;
 }
 
+img {
+    height: auto;
+    width: 500px;
+}
