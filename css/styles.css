@@ -1,27 +1,46 @@
-h1,
-h2,
-h3 {
-    text-align: center;
-    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
-    color: lightgreen;
+/* HOMEPAGE */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color:#333333;
 }
 
-p,
-ul,
-ol {
-    font-size: 20px;
+#homepage {
+    margin: 0px;
 }
 
-b {
-    color: lightgreen;
+.home-header {
+    margin-top: 0px;
+    color: #ffffff;
+    padding: 16px 625px;
 }
 
-img {
-    height: auto;
-    width: 500px;
+button {
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 16px;
 }
+
+#b2,
+#b3 {
+    margin-left: 300px;
+}
+
+#b1 {
+    margin-left: 270px;
+}
+
+.buttons {
+    outline: 2px solid whitesmoke;
+    padding: 8px;
+}
+
+
+
+/* Recipe Pages */
+
